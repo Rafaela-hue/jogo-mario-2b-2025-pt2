@@ -23,7 +23,6 @@
   position: absolute;
   bottom: 0;
   width: 80px;
-  animation: pipe-animation 1.5s infinite linear;
 }
 
 .mario {
@@ -64,6 +63,17 @@ button:hover{
 
 button.start {
   display:block
+}
+
+.score{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'arial', sans-serif;
 }
 
 .game-over{
